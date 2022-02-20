@@ -1,0 +1,116 @@
+:root {
+  --accent-color: #ff6c00;
+  --paragraf-color: #555;
+  --white-color: #fff;
+  --hero-text-color: rgba(157, 164, 189, 0.6);
+  --hero-text-color2: #9da4bd;
+  --hero-text-color3: #303030;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.85;
+  letter-spacing: 0.02em;
+}
+
+/* -------------------------BASIS */
+
+.ul-basis {
+  list-style: none;
+}
+.a-basis {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.button {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+/* -------------------------HEADER */
+.header-menu {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--white-color);
+}
+.h-m-extra {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+/* -----------------------------MAIN */
+.hero-slogan {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  content: var(--hero-text-color);
+}
+.hero-name {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+.hero-title {
+  font-size: 18px;
+  line-height: 1.67;
+  color: var(--hero-text-color2);
+}
+--------------------------------------------------------- .social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  color: var(--accent-color);
+}
+------------------------------------------------------------ .id-point {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--hero-text-color3);
+}
+
+.h3-group {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  letter-spacing: 0.05em;
+  color: var(--hero-text-color3);
+}
+.service-table {
+  font-size: 18px;
+  line-height: 1.66;
+  color: var(--hero-text-color2);
+}
+----------------------------------------------- .figure-page {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.35;
+  letter-spacing: 0.05em;
+  color: blue;
+}
+.plus-accent {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.37;
+  color: var(--accent-color);
+}

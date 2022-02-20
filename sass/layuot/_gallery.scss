@@ -1,0 +1,19 @@
+.gallery {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.gallery-pre-title {
+  margin-bottom: 44px;
+  color: var(--hero-text-color3);
+}
+
+.gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery-item:not(:first-child) {
+  margin-left: 30px;
+}

@@ -1,0 +1,14 @@
+.pre-title {
+  display: flex;
+  align-items: center;
+  @include font($fs: 11px, $fw: 600, $lh: 1.36, $ls: 0.1em);
+  text-transform: uppercase;
+
+  &::before {
+    content: '';
+    height: 1px;
+    width: 63px;
+    margin-right: 21px;
+    background-color: currentColor;
+  }
+}

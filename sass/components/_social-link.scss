@@ -1,0 +1,38 @@
+.masters-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.masters-item:not(:first-child) {
+  margin-left: 30px;
+}
+
+.masters-nav {
+  display: flex;
+  justify-content: center;
+}
+.masters-nav-item:not(:first-child) {
+  margin-left: 10px;
+}
+.masters-nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  border: transparent;
+  border-radius: 50%;
+  background-color: var(--white-color);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}

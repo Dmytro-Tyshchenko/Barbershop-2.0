@@ -1,0 +1,52 @@
+.sectionAbout {
+  padding-top: 139px;
+  padding-bottom: 121px;
+}
+.about-container {
+  display: flex;
+}
+.about-list {
+  display: flex;
+}
+.about-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-content {
+  margin-left: 64px;
+}
+.about-pre-title {
+  margin-bottom: 20px;
+  color: var(--hero-text-color3);
+}
+.about-name {
+  @include font($fs: 42px, $fw: 700, $lh: 1.16, $ls: 0.05em);
+  font-family: Raleway;
+  margin-bottom: 20px;
+
+  color: var(--hero-text-color3);
+}
+.about-title {
+  @include font($fs: 18px, $fw: 400, $lh: 1.67, $ls: 0.02em);
+  margin-bottom: 20px;
+
+  color: var(--paragraph-color);
+}
+.about-text {
+  @include font($fs: 14px, $fw: 400, $lh: 1.85, $ls: 0.02em);
+  margin-bottom: 40px;
+
+  color: var(--paragraph-color);
+}
+.about-btn {
+  color: var(--hero-text-color3);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: var(--white-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
